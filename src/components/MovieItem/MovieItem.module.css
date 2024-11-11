@@ -1,0 +1,21 @@
+.movieItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.movieImg {
+  height: 570px;
+}
+
+/* mobile and tablets */
+
+@media screen and (max-width: 767px) {
+  .movieItem {
+    min-width: 250px;
+    max-width: 300px;
+  }
+  .movieImg {
+  }
+}

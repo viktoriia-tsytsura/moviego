@@ -1,0 +1,40 @@
+.movieGallery {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  display: flex;
+}
+
+/* mobile portrait and lanscape */
+
+@media screen and (max-width: 575px) {
+  .movieGallery {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+/* tablets */
+
+@media screen and (min-width: 576px) {
+  .movieGallery {
+    justify-content: left;
+    flex-wrap: wrap;
+    column-gap: calc((100% - (250px * 2)) / 1);
+    row-gap: 50px;
+  }
+}
+
+/* desktop */
+@media (min-width: 768px) {
+  .movieGallery {
+    column-gap: calc((100% - (400px * 2)) / 1);
+  }
+}
+
+@media (min-width: 1200px) {
+  .movieGallery {
+    column-gap: calc((100% - (400px * 3)) / 2);
+  }
+}

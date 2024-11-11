@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoBox {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.logoText {
+  font-size: 23px;
+  text-decoration: none;
+  color: #fff;
+}
+.pages {
+  display: flex;
+  gap: 20px;
+}
+.pagesText {
+  text-transform: uppercase;
+  font-size: 13px;
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,9 @@
+.header {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../../assets/library-bg-large-2x.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
